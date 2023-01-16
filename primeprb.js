@@ -1,12 +1,12 @@
 let count=0;
-for(let i=0;i<n;i++){
-if(i%1==0){
-count++
-}
+let n = 23
+for(let i=1;i<=n;i++){
+	if(n%i==0){
+		count++
+	}
 }
 if(count == 2){
-console.log("prime")
-else
-{
-console.log("not a prime")
+	console.log("prime")
+else{
+	console.log("not a prime")
 }
