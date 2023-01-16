@@ -8,5 +8,5 @@ if(count == 2){
 console.log("prime")
 else
 {
-console.log("not a prime")
+console.log("no prime")
 }
